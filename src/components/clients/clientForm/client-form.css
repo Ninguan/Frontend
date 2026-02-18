@@ -1,0 +1,277 @@
+.client-form-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px; /* Space between the form and top bar */
+}
+
+.client-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+    text-align: right;
+    color: orange;
+}
+
+input {
+    padding: 12px; /* Increased padding for larger input fields */
+    background-color: #222;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    word-wrap: break-word; /* Handle long text properly */
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #ffa500;
+}
+
+/* Make Name and Email fields larger */
+input[name="name"], input[name="email"] {
+    height: 50px; /* Increase height to match Phone and Instagram fields */
+}
+
+.submit-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    grid-column: span 2;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.client-memberships {
+    margin-top: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.client-memberships h4 {
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.client-memberships ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.client-memberships li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.add-membership-form {
+    margin-top: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.add-membership-form h4 {
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.add-membership-form .form-row {
+    margin-bottom: 10px;
+}
+
+.add-membership-form select,
+.add-membership-form input {
+    padding: 10px;
+    background-color: #222;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-membership-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-membership-form button:hover {
+    background-color: #45a049;
+}
+
+/* Modal overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Modal box */
+.modal {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.modal h4 {
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cancel-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cancel-btn:hover {
+    background-color: #ff1a1a;
+}
+
+
+.membership-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.add-membership-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-membership-btn:hover {
+    background-color: #45a049;
+}
+
+.details-btn {
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.details-btn:hover {
+    background-color: #45a049;
+}
+
+/* Valid Membership Styling */
+.membership-item.valid {
+    background-color: #e8f5e9; /* Light green */
+    color: #2e7d32; /* Dark green */
+    border-left: 5px solid #2e7d32;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Expired Membership Styling */
+.membership-item.expired {
+    background-color: #f5f5f5; /* Light grey */
+    color: #9e9e9e; /* Dark grey */
+    border-left: 5px solid #bdbdbd; /* Medium grey */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Valid Details Button */
+.details-btn.valid-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.details-btn.valid-btn:hover {
+    background-color: #45a049;
+}
+
+/* Expired Details Button */
+.details-btn.expired-btn {
+    background-color: #bdbdbd; /* Grey */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.details-btn.expired-btn:hover {
+    background-color: #9e9e9e; /* Darker grey */
+}

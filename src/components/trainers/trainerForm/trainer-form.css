@@ -1,0 +1,68 @@
+.trainer-form-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px; /* Space between the form and top bar */
+}
+
+.trainer-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+    text-align: right;
+    color: orange;
+}
+
+input {
+    padding: 12px; /* Increased padding for larger input fields */
+    background-color: orange;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    word-wrap: break-word; /* Handle long text properly */
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #ffa500;
+}
+
+/* Make Name and Email fields larger */
+input[name="name"], input[name="email"] {
+    height: 50px; /* Increase height to match Phone and Instagram fields */
+}
+
+.submit-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    grid-column: span 2;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}

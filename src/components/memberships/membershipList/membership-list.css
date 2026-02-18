@@ -1,0 +1,110 @@
+.membership-list-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.membership-list {
+    /* Adjusted grid-template-columns to include 6 columns */
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-y: auto; /* Allows vertical scrolling */
+    height: 400px; /* Adjust height as needed */
+}
+
+.membership-list-header {
+    display: grid !important;
+    /* Updated grid-template-columns for 6 columns */
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #444;
+    padding: 10px;
+    font-weight: bold;
+    color: orange;
+}
+
+.header-cell {
+    padding: 10px;
+    text-align: center;
+}
+
+.membership-row {
+    display: grid !important;
+    /* Updated grid-template-columns for 6 columns */
+    grid-template-columns: repeat(6, 1fr);
+    padding: 10px;
+    background-color: #222;
+    border-bottom: 1px solid #444;
+}
+
+.membership-cell {
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Handles text overflow */
+}
+
+.membership-cell a {
+    color: orange;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.membership-cell button {
+    background-color: orange;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.membership-cell button:hover {
+    background-color: #ff9a00;
+}
+
+.membership-row:hover {
+    background-color: #555;
+}
+
+.membership-row:last-child {
+    border-bottom: none;
+}
+
+.edit-link:hover {
+    text-decoration: underline;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #ff1a1a;
+}
+
+.add-membership-btn-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-membership-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-membership-btn:hover {
+    background-color: #45a049; /* Darker green */
+}

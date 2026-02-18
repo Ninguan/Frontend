@@ -1,0 +1,84 @@
+{
+    "login": {
+      "title": "Zaloguj się",
+      "username": "Nazwa użytkownika",
+      "password": "Hasło",
+      "submit": "Zaloguj się",
+      "error": "Nieprawidłowa nazwa użytkownika lub hasło"
+    },
+    "logout": "Wyloguj się",
+    "topBar": {
+      "clientsList": "Lista klientów",
+      "workoutsList": "Lista treningów",
+      "membershipsList": "Lista członkostw",
+      "trainersList": "Lista trenerów",
+      "calendar": "Kalendarz treningów",
+      "logout": "Wyloguj się"
+    },
+    "clientForm": {
+      "titleCreate": "Utwórz klienta",
+      "titleEdit": "Edytuj klienta",
+      "name": "Imię",
+      "phone": "Telefon",
+      "email": "Email",
+      "instagram": "Instagram",
+      "submitCreate": "Utwórz klienta",
+      "submitEdit": "Zaktualizuj klienta",
+      "memberships": "Członkostwa",
+      "addMembership": "Dodaj członkostwo",
+      "membershipDetails": "Szczegóły",
+      
+      "membershipsHeader": "Istniejące członkostwa",
+      "membershipSelectLabel": "Członkostwo",
+      "selectMembershipOption": "Wybierz członkostwo",
+      "unlimited": "Bez ograniczeń",
+      "membershipDetailsTitle": "Szczegóły członkostwa",
+      "membershipName": "Nazwa członkostwa",
+      "endDate": "Data zakończenia",
+      "startDate": "Data rozpoczęcia",
+      "entranceLimitations": "Limit wejść"
+    },
+    "membershipForm": {
+      "titleCreate": "Utwórz członkostwo",
+      "titleEdit": "Edytuj członkostwo",
+      "name": "Nazwa",
+      "price": "Cena",
+      "duration": "Czas trwania (dni)",
+      "entranceLimited": "Ograniczony dostęp",
+      "entranceLimitations": "Limit wejść",
+      "submitCreate": "Utwórz członkostwo",
+      "submitEdit": "Zaktualizuj członkostwo"
+    },
+    "trainerForm": {
+      "titleCreate": "Utwórz trenera",
+      "titleEdit": "Edytuj trenera",
+      "name": "Imię",
+      "description": "Opis",
+      "submitCreate": "Utwórz trenera",
+      "submitEdit": "Zaktualizuj trenera"
+    },
+    "workoutForm": {
+      "titleCreate": "Utwórz trening",
+      "titleEdit": "Edytuj trening",
+      "name": "Nazwa treningu",
+      "startTime": "Czas rozpoczęcia",
+      "duration": "Czas trwania (minuty)",
+      "trainer": "Trener",
+      "memberships": "Członkostwa",
+      "submitCreate": "Utwórz trening",
+      "submitEdit": "Zaktualizuj trening"
+    },
+    "calendar": {
+      "today": "Dzisiaj",
+      "month": "Miesiąc",
+      "week": "Tydzień",
+      "day": "Dzień"
+    },
+    "common": {
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "add": "Dodaj",
+      "cancel": "Anuluj",
+      "close": "Zamknij"
+    }
+  }

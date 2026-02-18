@@ -1,0 +1,38 @@
+.calendar-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px; /* Center the calendar and limit its width */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.react-big-calendar {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    overflow: hidden; /* Avoid internal scrollbars */
+    width: 100%; /* Ensure calendar fits within the container */
+}
+
+.rbc-month-view, .rbc-time-view {
+    overflow-x: hidden; /* Prevent horizontal scrolling in views */
+}
+
+.rbc-time-content {
+    overflow-x: hidden; /* Prevent horizontal scroll on time grid */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+}
+
+.rbc-toolbar {
+    background-color: #e3e3e3;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    overflow: hidden; /* Prevent toolbar overflow */
+}

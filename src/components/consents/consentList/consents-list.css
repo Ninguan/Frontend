@@ -1,0 +1,80 @@
+.consents-list-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.btn {
+    background-color: #ff8c00;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.consents-list {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list-header, .consent-row {
+    display: table-row;
+}
+
+.list-header {
+    background-color: #444;
+    font-weight: bold;
+}
+
+.header-cell, .consent-cell {
+    display: table-cell;
+    padding: 10px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+}
+
+.header-cell {
+    font-size: 18px;
+    color: #ffcc00;
+}
+
+.consent-row:nth-child(even) {
+    background-color: #333;
+}
+
+.edit-link {
+    color: #4db8ff;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #ff1a1a;
+}

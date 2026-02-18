@@ -1,0 +1,84 @@
+{
+    "login": {
+      "title": "Увійти",
+      "username": "Ім'я користувача",
+      "password": "Пароль",
+      "submit": "Увійти",
+      "error": "Невірне ім'я користувача або пароль"
+    },
+    "logout": "Вийти",
+    "topBar": {
+      "clientsList": "Список клієнтів",
+      "workoutsList": "Список тренувань",
+      "membershipsList": "Список абонементів",
+      "trainersList": "Список тренерів",
+      "calendar": "Календар тренувань",
+      "logout": "Вийти"
+    },
+    "clientForm": {
+      "titleCreate": "Створити клієнта",
+      "titleEdit": "Редагувати клієнта",
+      "name": "Ім'я",
+      "phone": "Телефон",
+      "email": "Електронна пошта",
+      "instagram": "Instagram",
+      "submitCreate": "Створити клієнта",
+      "submitEdit": "Оновити клієнта",
+      "memberships": "Абонементи",
+      "addMembership": "Додати абонемент",
+      "membershipDetails": "Деталі",
+
+      "membershipsHeader": "Існуючі абонементи",
+      "membershipSelectLabel": "Абонемент",
+      "selectMembershipOption": "Виберіть абонемент",
+      "unlimited": "Необмежено",
+      "membershipDetailsTitle": "Деталі абонемента",
+      "membershipName": "Назва абонемента",
+      "endDate": "Дата завершення",
+      "startDate": "Дата початку",
+      "entranceLimitations": "Ліміт відвідувань"
+    },
+    "membershipForm": {
+      "titleCreate": "Створити абонемент",
+      "titleEdit": "Редагувати абонемент",
+      "name": "Назва",
+      "price": "Ціна",
+      "duration": "Тривалість (днів)",
+      "entranceLimited": "Обмежений доступ",
+      "entranceLimitations": "Ліміт входів",
+      "submitCreate": "Створити абонемент",
+      "submitEdit": "Оновити абонемент"
+    },
+    "trainerForm": {
+      "titleCreate": "Створити тренера",
+      "titleEdit": "Редагувати тренера",
+      "name": "Ім'я",
+      "description": "Опис",
+      "submitCreate": "Створити тренера",
+      "submitEdit": "Оновити тренера"
+    },
+    "workoutForm": {
+      "titleCreate": "Створити тренування",
+      "titleEdit": "Редагувати тренування",
+      "name": "Назва тренування",
+      "startTime": "Час початку",
+      "duration": "Тривалість (хвилини)",
+      "trainer": "Тренер",
+      "memberships": "Абонементи",
+      "submitCreate": "Створити тренування",
+      "submitEdit": "Оновити тренування"
+    },
+    "calendar": {
+      "today": "Сьогодні",
+      "month": "Місяць",
+      "week": "Тиждень",
+      "day": "День"
+    },
+    "common": {
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "add": "Додати",
+      "cancel": "Скасувати",
+      "close": "Закрити"
+    }
+  }
