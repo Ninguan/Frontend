@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.client-list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.client-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+  gap: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-y: auto;  /* Allows vertical scrolling */
+  height: 400px; /* You can adjust this height as needed */
+}
+
+.client-list-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #444;
+  padding: 10px;
+  font-weight: bold;
+  color: orange;
+}
+
+.header-cell {
+  padding: 10px;
+  text-align: center;
+}
+
+.client-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  background-color: #222;
+  border-bottom: 1px solid #444;
+}
+
+.client-cell {
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Handles text overflow */
+}
+
+.client-cell a {
+  color: orange;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.client-cell button {
+  background-color: orange;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.client-cell button:hover {
+  background-color: #ff9a00;
+}
+
+.client-row:hover {
+  background-color: #555;
+}
+
+.client-row:last-child {
+  border-bottom: none;
+}
+
+.edit-link:hover {
+  text-decoration: underline;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #ff1a1a;
+}
+

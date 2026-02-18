@@ -1,0 +1,84 @@
+{
+    "login": {
+      "title": "Login",
+      "username": "Username",
+      "password": "Password",
+      "submit": "Login",
+      "error": "Invalid username or password"
+    },
+    "logout": "Logout",
+    "topBar": {
+      "clientsList": "Clients List",
+      "workoutsList": "Workouts List",
+      "membershipsList": "Memberships List",
+      "trainersList": "Trainers List",
+      "calendar": "Workout Calendar",
+      "logout": "Logout"
+    },
+    "clientForm": {
+      "titleCreate": "Create Client",
+      "titleEdit": "Edit Client",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "instagram": "Instagram",
+      "submitCreate": "Create Client",
+      "submitEdit": "Update Client",
+      "memberships": "Memberships",
+      "addMembership": "Add Membership",
+      "membershipDetails": "Details",
+  
+      "membershipsHeader": "Existing Memberships",            
+      "membershipSelectLabel": "Membership",                  
+      "selectMembershipOption": "Select a membership",        
+      "unlimited": "Unlimited",                               
+      "membershipDetailsTitle": "Membership Details",         
+      "membershipName": "Membership Name",                    
+      "endDate": "End Date",                                  
+      "startDate": "Start Date",                              
+      "entranceLimitations": "Entrance Limitations"           
+    },
+    "membershipForm": {
+      "titleCreate": "Create Membership",
+      "titleEdit": "Edit Membership",
+      "name": "Name",
+      "price": "Price",
+      "duration": "Duration (days)",
+      "entranceLimited": "Entrance Limited",
+      "entranceLimitations": "Entrance Limitations",
+      "submitCreate": "Create Membership",
+      "submitEdit": "Update Membership"
+    },
+    "trainerForm": {
+      "titleCreate": "Create Trainer",
+      "titleEdit": "Edit Trainer",
+      "name": "Name",
+      "description": "Description",
+      "submitCreate": "Create Trainer",
+      "submitEdit": "Update Trainer"
+    },
+    "workoutForm": {
+      "titleCreate": "Create Workout",
+      "titleEdit": "Edit Workout",
+      "name": "Workout Name",
+      "startTime": "Start Time",
+      "duration": "Duration (minutes)",
+      "trainer": "Trainer",
+      "memberships": "Memberships",
+      "submitCreate": "Create Workout",
+      "submitEdit": "Update Workout"
+    },
+    "calendar": {
+      "today": "Today",
+      "month": "Month",
+      "week": "Week",
+      "day": "Day"
+    },
+    "common": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "add": "Add",
+      "cancel": "Cancel",       
+      "close": "Close"          
+    }
+  }

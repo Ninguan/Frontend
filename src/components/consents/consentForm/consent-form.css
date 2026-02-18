@@ -1,0 +1,87 @@
+/* General Form Styling */
+.consent-form-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.consent-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+    text-align: right;
+    color: orange;
+}
+
+input, textarea {
+    padding: 12px;
+    background-color: orange;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #ffa500;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ✅ IMPROVED: Stylish PDF Link */
+.pdf-link {
+    display: inline-block;
+    color: #ffa500; /* Bright orange */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #222; /* Dark background to stand out */
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ffa500;
+}
+
+.pdf-link:hover {
+    background-color: #ffa500;
+    color: black;
+    text-decoration: none;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    grid-column: span 2;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}

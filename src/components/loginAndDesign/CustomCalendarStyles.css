@@ -1,0 +1,69 @@
+
+/* Entire calendar background */
+.rbc-calendar {
+    background-color: #000; /* Black background */
+    color: orange;          /* Orange text */
+    border: 1px solid #333;  /* Darker border */
+  }
+  
+  /* Toolbar (header where the month, week, day buttons are) */
+  .rbc-toolbar {
+    background-color: #333;  /* Dark gray background */
+    color: orange !important;           /* Orange text */
+    padding: 10px;
+    border-bottom: 1px solid #666;
+  }
+  
+  /* Toolbar buttons (today, next, previous) */
+  .rbc-toolbar button {
+    background-color: #444;  /* Lighter dark gray background */
+    color: orange !important;           /* Orange text for the buttons */
+    border: 1px solid #666;  /* Border around the buttons */
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  /* Button hover effect */
+  .rbc-toolbar button:hover {
+    background-color: #666; /* Lighten up the background on hover */
+    color: white;           /* White text on hover */
+  }
+  
+  /* Calendar day cells */
+  .rbc-day-bg, .rbc-date-cell {
+    background-color: #000; /* Black background for days */
+    color: orange !important;          /* Orange text for dates */
+  }
+  
+  /* Event block (Workout entries) */
+  .rbc-event {
+    background-color: orange; /* Orange background for events */
+    color: black;             /* Black text inside events */
+    padding: 5px;
+    border-radius: 5px;
+    border: none;             /* No border around events */
+  }
+  
+  /* Current day */
+  .rbc-today {
+    background-color: #111;   /* Slightly lighter black for current day */
+    color: orange !important;            /* Keep text orange */
+  }
+  
+  .rbc-btn-group button + button {
+    color: orange !important;
+    }
+  
+  /* Time slots in week/day views */
+  .rbc-time-slot {
+    border-top: 1px solid #333;
+  }
+  
+  /* Styling for the event details pop-up */
+  .rbc-overlay {
+    background-color: #333;  /* Dark background for event pop-up */
+    color: orange;           /* Orange text */
+    border: 1px solid orange;
+  }
+  
+  
